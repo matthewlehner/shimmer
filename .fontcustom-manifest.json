@@ -1,13 +1,13 @@
 {
   "checksum": {
-    "previous": "c67fe0c257e1dc80c2cddbaf33b4a4d91f7893194d9cefb1154fc3f89af48eae",
-    "current": "c67fe0c257e1dc80c2cddbaf33b4a4d91f7893194d9cefb1154fc3f89af48eae"
+    "previous": "8f660c3bd018b2a0c36a4b78bfccb96c20be270613f10d11e5f105a5a11364e0",
+    "current": "8f660c3bd018b2a0c36a4b78bfccb96c20be270613f10d11e5f105a5a11364e0"
   },
   "fonts": [
-    "app/assets/fonts/shimmer.ttf",
-    "app/assets/fonts/shimmer.svg",
-    "app/assets/fonts/shimmer.woff",
-    "app/assets/fonts/shimmer.eot"
+    "fonts/shimmer.ttf",
+    "fonts/shimmer.svg",
+    "fonts/shimmer.woff",
+    "fonts/shimmer.eot"
   ],
   "glyphs": {
     "calendar": {
@@ -80,10 +80,9 @@
     },
     "no_hash": true,
     "output": {
-      "css": "app/assets/stylesheets",
-      "fonts": "app/assets/fonts",
-      "preview": "app/assets/fonts",
-      "preview.html": "app/views/styleguide"
+      "css": "stylesheets",
+      "fonts": "fonts",
+      "preview": "src"
     },
     "preprocessor_path": null,
     "quiet": false,
@@ -93,7 +92,7 @@
     ]
   },
   "templates": [
-    "app/assets/fonts/shimmer-preview.html",
-    "app/assets/stylesheets/_shimmer.scss"
+    "src/shimmer-preview.html",
+    "stylesheets/_shimmer.scss"
   ]
 }

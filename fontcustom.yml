@@ -50,9 +50,9 @@ input:
   templates: lib/fontcustom/templates
 
 output:
-  fonts: app/assets/fonts
-  css: app/assets/stylesheets
-  preview.html: app/views/styleguide
+  fonts: fonts
+  css: stylesheets
+  preview: src
 #  my-custom-template.yml: path/to/template/output
 
 

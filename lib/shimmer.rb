@@ -12,7 +12,7 @@ module Shimmer
     class Engine < ::Rails::Engine
     end
   else
-    sparklets_path = File.expand_path("../../app/assets/stylesheets", __FILE__)
+    sparklets_path = File.expand_path("../../stylesheets", __FILE__)
     ENV["SASS_PATH"] = [ENV["SASS_PATH"], sparklets_path].compact.join(File::PATH_SEPARATOR)
   end
 end
