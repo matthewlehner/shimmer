@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon Template</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Icon-Template" sketch:type="MSArtboardGroup" stroke="#4A4A4A" stroke-width="1.5">
+            <path d="M271.653301,28.583618 L271.653301,28.583618 C308.82015,28.583618 338.951469,58.7633284 338.951469,95.9898649 L338.951469,380.631304 C338.951469,417.857839 308.82015,448.037549 271.653301,448.037549 L271.653301,448.037549" id="Stroke-1" sketch:type="MSShapeGroup"></path>
+            <path d="M406.250895,28.583618 L406.250895,28.583618 C369.084048,28.583618 338.952727,58.7633284 338.952727,95.9898649 L338.952727,380.631304 C338.952727,417.857839 369.084048,448.037549 406.250895,448.037549 L406.250895,448.037549" id="Stroke-3" sketch:type="MSShapeGroup"></path>
+            <path d="M484.222963,350.401259 L23.5634415,350.401259 L23.5634415,126.21991 L484.222963,126.21991 L484.222963,350.401259 L484.222963,350.401259 Z" id="Stroke-5" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

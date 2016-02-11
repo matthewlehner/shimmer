@@ -1,0 +1,35 @@
+/*
+ * Font Custom: SCSS
+ */
+
+<%= font_face(url: "font-url", path: font_name) %>
+
+@mixin <%= font_name %>-icon {
+  <%= glyph_properties %>
+}
+
+%<%= font_name %>-icon {
+  @include <%= font_name %>-icon;
+}
+
+[data-icon]:before {
+  @extend %<%= font_name %>-icon;
+  content: attr(data-icon);
+}
+<% @glyphs.each do |name, value| %>
+<% selector_name = @options[:css_selector].sub('{{glyph}}', name.to_s)[1..-1] %>
+@mixin <%= selector_name %> {
+  content: "\<%= value[:codepoint].to_s(16) %>";
+}
+
+%<%= selector_name %> {
+  @include <%= selector_name %>;
+}
+
+.<%= selector_name %> {
+  &:before {
+    @extend %<%= font_name %>-icon;
+    @extend %<%= selector_name %>;
+  }
+}
+<% end %>
