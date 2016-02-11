@@ -1,0 +1,21 @@
+{
+  "name": "shimmer",
+  "version": "0.1.0",
+  "description": "Icon font for Sparkle CMS admin interface",
+  "private": "true",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewlehner/shimmer.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthewlehner/shimmer/issues"
+  },
+  "homepage": "https://github.com/matthewlehner/shimmer#readme"
+}
