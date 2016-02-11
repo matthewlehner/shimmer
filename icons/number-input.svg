@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="17px" height="14px" viewBox="0 0 17 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>number-input</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="number-input" sketch:type="MSLayerGroup" transform="translate(-2.000000, -4.000000)" fill="#4A4A4A">
+            <text id="1" sketch:type="MSTextLayer" font-family=".AppleSystemUIFont" font-size="19" font-weight="normal">
+                <tspan x="0" y="18">1</tspan>
+            </text>
+            <path d="M17.781207,11.3186672 L14.4713083,11.3186672 C14.0523669,11.3186672 13.8424603,11.8259616 14.1386837,12.1226109 L15.793742,13.780049 C15.885508,13.871947 16.0058283,13.9180052 16.1263666,13.9180052 C16.2466869,13.9180052 16.3670073,13.871947 16.4587733,13.780049 L18.1138316,12.1226109 C18.410055,11.8259616 18.2001484,11.3186672 17.781207,11.3186672" id="Fill-3" sketch:type="MSShapeGroup"></path>
+            <path d="M16.126323,6 C16.0060027,6 15.8856824,6.04605814 15.7936984,6.13795613 L14.1386401,7.79539425 C13.8424167,8.09204359 14.0523233,8.59933797 14.4712647,8.59933797 L17.7811634,8.59933797 C18.2003228,8.59933797 18.4102294,8.09204359 18.113788,7.79539425 L16.4587297,6.13795613 C16.3669637,6.04605814 16.2466434,6 16.126323,6 M16.7185519,7.06413945 L16.7196417,7.06413945 L16.7185519,7.06413945" id="Fill-5" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="25px" viewBox="0 0 24 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>phone</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Group-5-Copy" sketch:type="MSLayerGroup" transform="translate(-247.000000, -304.000000)" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <g id="Group-3" transform="translate(27.000000, 182.000000)" sketch:type="MSShapeGroup">
+                <g id="Group-19" transform="translate(26.000000, 123.000000)">
+                    <g id="Group-13" transform="translate(188.000000, 0.000000)">
+                        <path d="M26.0969017,16.0837666 C24.7035084,14.8900888 23.2875033,14.164316 21.9109535,15.3568385 L21.0893152,16.0791453 C20.4871035,16.5988087 19.3705891,19.042544 15.0441248,14.0628788 C10.7220444,9.08737282 13.2937884,8.31192127 13.8960001,7.79687911 L14.7234067,7.07549659 C16.0941882,5.87742857 15.5752709,4.37597322 14.5870438,2.82622544 L13.9929078,1.88833574 C12.9989123,0.342978187 11.9172386,-0.669314195 10.546457,0.523439348 L9.80349852,1.17041919 C9.19690289,1.61544889 7.49963493,3.05497903 7.08985409,5.7893931 C6.59354857,9.06934981 8.15468438,12.8250678 11.7372672,16.9472536 C15.3120052,21.0726743 18.8124473,23.1420855 22.1271498,23.1060395 C24.8790958,23.075539 26.5459071,21.596728 27.0648244,21.0590415 L27.8121668,20.4074404 C29.1785644,19.2139937 28.3310841,18.0032171 26.9321532,16.8063044 L26.0969017,16.0837666 L26.0969017,16.0837666 Z" id="phone"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

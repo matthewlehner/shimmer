@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="21px" height="18px" viewBox="0 0 21 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>checkbox</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Group-5-Copy" sketch:type="MSLayerGroup" transform="translate(-164.000000, -238.000000)" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <g id="Group-3" transform="translate(27.000000, 182.000000)" sketch:type="MSShapeGroup">
+                <g id="Group-20" transform="translate(30.000000, 54.000000)">
+                    <g id="Group-9" transform="translate(88.000000, 3.000000)">
+                        <g id="checkbox" transform="translate(20.000000, 0.000000)">
+                            <path d="M3.47708025,7.16762945 L7.74491283,11.4413348 L18.7480711,0.422619038" id="Stroke-1"></path>
+                            <path d="M15.8962332,13.3110215 L15.8962332,3.03221901 C15.8962332,1.49062301 14.6483844,0.240979963 13.1090019,0.240979963 L2.78723128,0.240979963 C1.24784877,0.240979963 0,1.49062301 0,3.03221901 L0,13.3110215 C0,14.8526175 1.24784877,16.1022605 2.78723128,16.1022605 L13.1090019,16.1022605 C14.6483844,16.1022605 15.8962332,14.8526175 15.8962332,13.3110215 L15.8962332,13.3110215 Z" id="Stroke-3"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

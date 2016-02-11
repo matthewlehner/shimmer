@@ -1,0 +1,99 @@
+{
+  "checksum": {
+    "previous": "227e81dc52c0c20a1e522939fbeef8c00dc3a6ce50cd8d27e2efaa1aaf0c91d1",
+    "current": "227e81dc52c0c20a1e522939fbeef8c00dc3a6ce50cd8d27e2efaa1aaf0c91d1"
+  },
+  "fonts": [
+    "app/assets/fonts/sparkler.ttf",
+    "app/assets/fonts/sparkler.svg",
+    "app/assets/fonts/sparkler.woff",
+    "app/assets/fonts/sparkler.eot"
+  ],
+  "glyphs": {
+    "calendar": {
+      "codepoint": 61699,
+      "source": "optimized-icons/calendar.svg"
+    },
+    "cap-height": {
+      "codepoint": 61708,
+      "source": "optimized-icons/cap-height.svg"
+    },
+    "checkbox": {
+      "codepoint": 61700,
+      "source": "optimized-icons/checkbox.svg"
+    },
+    "email": {
+      "codepoint": 61701,
+      "source": "optimized-icons/email.svg"
+    },
+    "input-baseline": {
+      "codepoint": 61698,
+      "source": "optimized-icons/input-baseline.svg"
+    },
+    "input-text": {
+      "codepoint": 61697,
+      "source": "optimized-icons/input-text.svg"
+    },
+    "number-input": {
+      "codepoint": 61702,
+      "source": "optimized-icons/number-input.svg"
+    },
+    "only-input": {
+      "codepoint": 61707,
+      "source": "optimized-icons/only-input.svg"
+    },
+    "phone": {
+      "codepoint": 61703,
+      "source": "optimized-icons/phone.svg"
+    },
+    "radio": {
+      "codepoint": 61704,
+      "source": "optimized-icons/radio.svg"
+    },
+    "select": {
+      "codepoint": 61705,
+      "source": "optimized-icons/select.svg"
+    },
+    "text-area": {
+      "codepoint": 61706,
+      "source": "optimized-icons/text-area.svg"
+    },
+    "text-input": {
+      "codepoint": 61696,
+      "source": "optimized-icons/text-input.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": "fontcustom.yml",
+    "css_selector": ".icon-{{glyph}}",
+    "debug": false,
+    "font_ascent": 420,
+    "font_descent": 92,
+    "font_design_size": 16,
+    "font_em": 512,
+    "font_name": "sparkler",
+    "force": true,
+    "input": {
+      "templates": "lib/fontcustom/templates",
+      "vectors": "optimized-icons"
+    },
+    "no_hash": true,
+    "output": {
+      "css": "app/assets/stylesheets",
+      "fonts": "app/assets/fonts",
+      "preview": "app/assets/fonts",
+      "preview.html": "app/views/styleguide"
+    },
+    "preprocessor_path": "../fonts/",
+    "quiet": false,
+    "templates": [
+      "preview",
+      "_sparklets.scss"
+    ]
+  },
+  "templates": [
+    "app/assets/fonts/sparkler-preview.html",
+    "app/assets/stylesheets/_sparklets.scss"
+  ]
+}
