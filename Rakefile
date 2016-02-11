@@ -6,7 +6,7 @@ namespace :font do
 
   task :minify_svgs do
     # Optimize svgs.
-    sh "svgo -f icons --output=optimized-icons --disable=removeViewBox"
+    sh "svgo -f src/icons --output=optimized-icons --disable=removeViewBox"
   end
 
   task :build_font do
