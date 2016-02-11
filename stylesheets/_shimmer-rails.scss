@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: "shimmer";
-  src: url("../fonts/shimmer.eot");
-  src: url("../fonts/shimmer.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/shimmer.woff") format("woff"),
-       url("../fonts/shimmer.ttf") format("truetype"),
-       url("../fonts/shimmer.svg#shimmer") format("svg");
+  src: font-url("../fonts/shimmer.eot");
+  src: font-url("../fonts/shimmer.eot?#iefix") format("embedded-opentype"),
+       font-url("../fonts/shimmer.woff") format("woff"),
+       font-url("../fonts/shimmer.ttf") format("truetype"),
+       font-url("../fonts/shimmer.svg#shimmer") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -16,7 +16,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "shimmer";
-    src: url("../fonts/shimmer.svg#shimmer") format("svg");
+    src: font-url("../fonts/shimmer.svg#shimmer") format("svg");
   }
 }
 

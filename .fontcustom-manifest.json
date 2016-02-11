@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "8f660c3bd018b2a0c36a4b78bfccb96c20be270613f10d11e5f105a5a11364e0",
-    "current": "8f660c3bd018b2a0c36a4b78bfccb96c20be270613f10d11e5f105a5a11364e0"
+    "previous": "97c17b3a63088ee5de8db1b80e44e670ca7ef67881611d4eb508000b43d48068",
+    "current": "97c17b3a63088ee5de8db1b80e44e670ca7ef67881611d4eb508000b43d48068"
   },
   "fonts": [
     "fonts/shimmer.ttf",
@@ -73,7 +73,7 @@
     "font_design_size": 16,
     "font_em": 512,
     "font_name": "shimmer",
-    "force": true,
+    "force": false,
     "input": {
       "templates": "lib/fontcustom/templates",
       "vectors": "optimized-icons"
@@ -88,11 +88,13 @@
     "quiet": false,
     "templates": [
       "preview",
-      "_shimmer.scss"
+      "_shimmer.scss",
+      "_shimmer-rails.scss"
     ]
   },
   "templates": [
     "src/shimmer-preview.html",
-    "stylesheets/_shimmer.scss"
+    "stylesheets/_shimmer.scss",
+    "stylesheets/_shimmer-rails.scss"
   ]
 }

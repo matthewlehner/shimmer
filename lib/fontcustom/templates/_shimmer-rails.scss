@@ -2,7 +2,7 @@
  * Font Custom: SCSS
  */
 
-<%= font_face(path: @font_path_alt) %>
+<%= font_face(url: "font-url", path: @font_path_alt) %>
 
 @mixin <%= font_name %>-icon {
   <%= glyph_properties %>
