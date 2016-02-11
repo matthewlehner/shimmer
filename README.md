@@ -1,16 +1,14 @@
-# SparkletsAdmin
+# Shimmer
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/sparklets_admin`. To experiment with that code, run `bin/console` for an interactive prompt.
+Asset pipeline gem for generating shimmer font for icons in Sparkle CMS.
 
-TODO: Delete this and the text above, and describe your gem
+Add new svgs to `icons/` and run `rake font:prepare` to build the font.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-```ruby
-gem 'sparklets_admin'
-```
+    gem 'shimmer'
 
 And then execute:
 
@@ -18,24 +16,27 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install sparklets_admin
+    $ gem install shimmer
 
 ## Usage
 
-TODO: Write usage instructions here
+Dependencies are fontforge, eot-utils, ttfautohint, xquartz, and svgo.
 
-## Development
+To install:
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+* `brew install fontforge --with-python
+* `brew install eot-utils`
+* `npm install -g svgo`
+* `bundle install`
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+Configuration is in `icons/fontcustom.yml`
 
-## Contributing
+## Adding new Icons
+1. Add the SVG to the `icons` directory.
+2. Run `rake font:prepare`
+3. Bump gem version by one point in `lib/sparklets/version.rb`
+4. Commit and push to Github
+5. Update the `sparklets` gem in your target repo `bundle update sparklets`
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/sparklets_admin. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
+*Tip*: Preview the generated font by opening
+`app/views/styleguide/sparklets-preview.html`

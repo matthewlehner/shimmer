@@ -1,13 +1,13 @@
 {
   "checksum": {
-    "previous": "227e81dc52c0c20a1e522939fbeef8c00dc3a6ce50cd8d27e2efaa1aaf0c91d1",
-    "current": "227e81dc52c0c20a1e522939fbeef8c00dc3a6ce50cd8d27e2efaa1aaf0c91d1"
+    "previous": "c67fe0c257e1dc80c2cddbaf33b4a4d91f7893194d9cefb1154fc3f89af48eae",
+    "current": "c67fe0c257e1dc80c2cddbaf33b4a4d91f7893194d9cefb1154fc3f89af48eae"
   },
   "fonts": [
-    "app/assets/fonts/sparkler.ttf",
-    "app/assets/fonts/sparkler.svg",
-    "app/assets/fonts/sparkler.woff",
-    "app/assets/fonts/sparkler.eot"
+    "app/assets/fonts/shimmer.ttf",
+    "app/assets/fonts/shimmer.svg",
+    "app/assets/fonts/shimmer.woff",
+    "app/assets/fonts/shimmer.eot"
   ],
   "glyphs": {
     "calendar": {
@@ -72,7 +72,7 @@
     "font_descent": 92,
     "font_design_size": 16,
     "font_em": 512,
-    "font_name": "sparkler",
+    "font_name": "shimmer",
     "force": true,
     "input": {
       "templates": "lib/fontcustom/templates",
@@ -85,15 +85,15 @@
       "preview": "app/assets/fonts",
       "preview.html": "app/views/styleguide"
     },
-    "preprocessor_path": "../fonts/",
+    "preprocessor_path": null,
     "quiet": false,
     "templates": [
       "preview",
-      "_sparklets.scss"
+      "_shimmer.scss"
     ]
   },
   "templates": [
-    "app/assets/fonts/sparkler-preview.html",
-    "app/assets/stylesheets/_sparklets.scss"
+    "app/assets/fonts/shimmer-preview.html",
+    "app/assets/stylesheets/_shimmer.scss"
   ]
 }

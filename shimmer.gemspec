@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'sparklets_admin/version'
+require 'shimmer/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "sparklets_admin"
-  spec.version       = SparkletsAdmin::VERSION
+  spec.name          = "shimmer"
+  spec.version       = Shimmer::VERSION
   spec.authors       = ["Matthew Lehner"]
   spec.email         = ["matthew@mpl.io"]
 
-  spec.summary       = %q{Asset gem for sparklets-admin icon font}
-  spec.description   = %q{An icon font used for sparklets admin pages.}
-  spec.homepage      = "https://github.com/scripps/sparklets_admin"
+  spec.summary       = %q{Asset gem for Sparkle CMS icon font}
+  spec.description   = %q{An icon font used for Sparkle admin pages.}
+  spec.homepage      = "https://github.com/matthewlehner/shimmer"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or

@@ -5,14 +5,14 @@
 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20150828 at Thu Feb 11 08:34:57 2016
+Created by FontForge 20150828 at Thu Feb 11 10:12:57 2016
  By Matthew Lehner
 Copyright (c) 2016, Matthew Lehner
 </metadata>
 <defs>
-<font id="sparkler" horiz-adv-x="512" >
+<font id="shimmer" horiz-adv-x="512" >
   <font-face 
-    font-family="sparkler"
+    font-family="shimmer"
     font-weight="400"
     font-stretch="normal"
     units-per-em="512"

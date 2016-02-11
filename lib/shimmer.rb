@@ -1,4 +1,4 @@
-require "sparklets_admin/version"
+require "shimmer/version"
 
 dir = File.dirname(__FILE__)
 $LOAD_PATH.unshift dir unless $LOAD_PATH.include?(dir)
@@ -7,7 +7,7 @@ unless defined?(Sass)
   require 'sass'
 end
 
-module SparkletsAdmin
+module Shimmer
   if defined?(Rails) && defined?(Rails::Engine)
     class Engine < ::Rails::Engine
     end
