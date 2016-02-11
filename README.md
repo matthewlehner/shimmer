@@ -40,3 +40,9 @@ Configuration is in `icons/fontcustom.yml`
 
 *Tip*: Preview the generated font by opening
 `app/views/styleguide/sparklets-preview.html`
+
+## Sketch Templates
+
+Use `src/icon-template.sketch` for layout out icons. Guides equate to
+cap-height, x-height, and baseline. Centring icons within these guides will help
+them to appear centred beside any text with the same line height and font size.
